@@ -1,0 +1,46 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+/*I valued both the width and height at 100 to even the bar out*/
+header{
+	width: 100%;
+	height: 100px;
+	background-color: #282828
+}
+
+h1{
+	position: absolute;
+	padding: 0px;
+	color: #39ca74;
+}
+
+ul{
+	width: auto;
+	margin-top: 0px
+}
+/*The display has to be inline-block to go across the page.*/
+li{ 
+	display: inline-block;
+	padding: 40px;
+}
+/*I don't want any text decoration. I had to remove the bullet points and underlines from my list items in the navigation bar*/
+a {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.2vw;
+}
+
+nav {
+	cursor: default;
+    margin: 0px;
+    width: auto;
+    text-align: center;
+}
+/*I put hover and the color grey to make it looks and react just like the Apple navigation bar*/
+a:hover{
+	color: #f0c330;
+	transition: 0.5s;
+	color: grey;
+}

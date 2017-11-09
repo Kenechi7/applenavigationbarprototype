@@ -1,0 +1,21 @@
+nav {
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	display: block;
+	margin: 10px;
+}
+ul {
+	text-align: center;
+	text-decoration: none;
+}
+li {
+	text-decoration: none;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
